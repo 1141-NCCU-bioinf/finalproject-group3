@@ -1,0 +1,11 @@
+# 排除大型數據檔案
+*.hic
+*.fa
+*.fa.*
+*.bam
+*.fastq.gz
+
+# 排除 Juicer 產生的資料夾
+aligned/
+splits/
+fastq/huge_backup/
